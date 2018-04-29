@@ -21,6 +21,7 @@ Usage
 
 - ``drawCurve``: a ``function`` to draw curves and calculate parameters.Read example.py to get an idea of how to use!
 
+if you right use the package,you can see the roc curve like below:
 
 .. image:: kaggle_ROC.png
   
