@@ -7,7 +7,21 @@ predict probabilistic image,this package can draw ROC,PR curves and save them to
 (False Positive Rate) TPR(True Positive Rate) AUC(Area under Curve) MAP(Mean Average Precision) IoU(Intersection over Union)
 at the same time.
 
-Usage
+
+Install
+-----
+Now you can use pip to install autometric,try ``pip install autometric``
+
+
+requirements:
+
+- python 3.0+
+- opencv_python 
+- matplotlib
+- numpy
+
+
+description
 -----
 
 ``autometric`` include the following function/class:
