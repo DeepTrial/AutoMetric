@@ -22,7 +22,7 @@ Usage
 - ``drawCurve``: a ``function`` to draw curves and calculate parameters.Read example.py to get an idea of how to use!
 
 
-.. image:: url(https://i.imgur.com/ZCNAIFw.png)
+.. image:: kaggle_ROC.png
    :width: 500px
    :alt: Sphinx Neo-Hittite
    :target: 
