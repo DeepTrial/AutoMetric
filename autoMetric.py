@@ -159,7 +159,7 @@ class DrawCurve:
 			plt.plot(self.xdata[i], self.ydata[i], color=self.colorbar[i%len(self.colorbar)], linewidth=2.0, linestyle=self.linestyle[i%len(self.linestyle)], label=self.modelName[i]+',AUC:' + str(self.auc[i]))
 		plt.legend()
 		plt.savefig(self.savepath+'%s_ROC.png'%self.dataName, dpi=800)
-		plt.show()
+		#plt.show()
 
 
 	def pr(self):
@@ -179,7 +179,7 @@ class DrawCurve:
 			plt.plot(self.xdata[i], self.ydata[i], color=self.colorbar[i%len(self.colorbar)], linewidth=2.0, linestyle=self.linestyle[i%len(self.linestyle)],label=self.modelName[i]+',MAP:' + str(self.auc[i]))
 		plt.legend()
 		plt.savefig(self.savepath+'%s_PR.png'%self.dataName, dpi=800)
-		plt.show()
+		#plt.show()
 
 
 def fileList(imgpath,filetype):
